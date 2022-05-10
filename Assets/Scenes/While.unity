@@ -563,7 +563,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1137861067}
-        m_MethodName: TripleInstantiate
+        m_MethodName: MultiInstantiate
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -739,6 +739,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToClone: {fileID: 590063301479461413, guid: fbc07ceec8aceab46bf5be128f9f7789,
     type: 3}
+  cloneAmount: 0
+  txtUserCloneAmount: {fileID: 625832602}
 --- !u!4 &1137861068
 Transform:
   m_ObjectHideFlags: 0
@@ -782,6 +784,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0145eb392df551c4daef24795019a852, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  txtUserName: {fileID: 625832602}
 --- !u!4 &1363342209
 Transform:
   m_ObjectHideFlags: 0
@@ -952,13 +955,13 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2049119580}
   m_TextComponent: {fileID: 625832602}
   m_Placeholder: {fileID: 2038132293}
-  m_ContentType: 0
+  m_ContentType: 2
   m_InputType: 0
   m_AsteriskChar: 42
-  m_KeyboardType: 0
+  m_KeyboardType: 4
   m_LineType: 0
   m_HideMobileInput: 0
-  m_CharacterValidation: 0
+  m_CharacterValidation: 1
   m_CharacterLimit: 0
   m_OnEndEdit:
     m_PersistentCalls:
